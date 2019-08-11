@@ -172,6 +172,7 @@ header {
     width: 75rem;
     margin: 2rem;
     text-align: center;
+    display: flex;
     background-color: #d63a3a;
     border: 3px solid #f1f1f1;
 }
@@ -192,7 +193,26 @@ header {
     font-size: 3rem;
     padding: 3.5rem 2rem;
     color: #f1f1f1;
+}
 
+.center-container2 {
+    height: 50rem;
+    width: 75rem;
+    margin: 2rem auto;
+    display: flex;
+    border: 3px solid #f1f1f1;
+    background-color: #d63a3a;
+}
+
+.center2 {
+    margin: auto;
+}
+
+.center2 h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #f1f1f1;
+    font-size: 6rem;
+    padding-top: 3.5rem;
 }
 
 
